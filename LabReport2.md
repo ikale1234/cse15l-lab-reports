@@ -103,3 +103,9 @@ input array and newArray should be returned, not the input array. I show these f
 second code block.
 
 ### Part 3
+
+Something new I learned from lab the past 2 weeks are how to create web servers using Java.
+I never worked with web servers before and I was always confused on how they work, but doing the lab
+and creating my own code for handling requests gave me a good understanding of how to implement one. 
+Server client is a big part of software today, and I feel like this introduction of it will prove pretty
+useful in the future.
