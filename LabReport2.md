@@ -61,3 +61,12 @@ public void testReversed2() {
   
 ```
 
+This is the JUnit test that has an input that doesn't induce a failure:
+
+```
+ public void testReversed() {
+    int[] input1 = { };
+    assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
+  }
+```
+
