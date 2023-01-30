@@ -34,3 +34,22 @@ query parameter (the part added to the "strings" variable"), handleRequest does 
 different string appended to "strings". The path of the URL determines all of the functionality of handleRequest,
 and since the path of the URL is mostly the same, the path taken inside the method will be very similar as well
 (same add-message block, same s request type).
+
+
+
+Part 2:
+
+This is the buggy program:
+
+```
+static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1];
+    }
+    return arr;
+  }
+ 
+```
+
+
