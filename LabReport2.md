@@ -71,5 +71,4 @@ This is the JUnit test that has an input that doesn't induce a failure:
 ```
 
 I put those two tests in a single file and ran it. This was the output from the terminal:
-
-
+![Image](ss4.png)
