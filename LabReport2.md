@@ -72,3 +72,34 @@ This is the JUnit test that has an input that doesn't induce a failure:
 
 I put those two tests in a single file and ran it. This was the output from the terminal:
 ![Image](ss4.png)
+
+
+This is the initial program with the bug:
+```
+static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1];
+    }
+    return arr;
+  }
+```
+
+And this is the program after my fixes:
+```
+  static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      newArray[i] = arr[arr.length - i - 1];
+    }
+    return newArray;
+  }
+```
+
+The problem was that the array that was being returned (also the input array)
+was being populated with newArray, which was an empty array intended to be populated.
+This means the bug was that the variables were swapped, the empty array should be populated with the
+input array and newArray should be returned, not the input array. I show these fixes in the
+second code block.
+
+### Part 3
