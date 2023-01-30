@@ -27,7 +27,7 @@ It then checks the type of query, which is signified by the first parameter "s".
 so as a result the second parameter is appended to the "strings" variable along with a newline.
 
 Usage 2:
-![Image](ss2.png)
+![Image](ss3.png)
 
 This request also calls the "handleRequest" method, and since the entire path is the same besides the second
 query parameter (the part added to the "strings" variable"), handleRequest does the exact same thing but with a
