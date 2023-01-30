@@ -52,4 +52,12 @@ static int[] reversed(int[] arr) {
  
 ```
 
+This is the JUnit test that has a failure inducing input:
+```
+public void testReversed2() {
+    int[] input1 = { 4, 5, 6, 7};
+    assertArrayEquals(new int[]{ 7, 6 ,5 ,4 }, ArrayExamples.reversed(input1));
+  }
+  
+```
 
