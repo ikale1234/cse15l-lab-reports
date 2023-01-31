@@ -22,6 +22,6 @@ logging in! It should look like this:
 ### Step 3
 
 Using this remote connection, you can traverse and alter the directory system of the
-computer you are connected to. Using cd, ls, mkdir, etc… play around with commands and
+computer you are connected to. Using ```cd```, ```ls```, ```mkdir```, etc… play around with commands and
 see what you can do to the given directory.
 ![Image](screenshot3.png)
