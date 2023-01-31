@@ -1,7 +1,7 @@
 # How to Log onto ieng6 Account
 ## By Ishaan Kale
 
-First, install VSCode on whatever platform you are on. Once installed, it
+First, install VSCode on whatever platform you are on at [title](https://code.visualstudio.com/download). Once installed, it
 should be easy to access the directories within your computer and write code.
 It also has a built-in terminal which we will be using to remote connect.
 (terminal can be opened using control ` on mac)
