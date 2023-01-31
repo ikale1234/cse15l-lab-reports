@@ -7,7 +7,7 @@ It also has a built-in terminal which we will be using to remote connect.
 (terminal can be opened using control ` on mac)
 ![Image](screenshot1.png)
 
-Then, go to this link: https://sdacs.ucsd.edu/~icc/index.php, and then follow the
+Then, click [here](https://sdacs.ucsd.edu/~icc/index.php) and then follow the
 instructions to find the account username and reset your password. Once the password is
 reset, wait a little while, and then type in ssh cs15lwi23**@ieng6.ucsd.edu into the
 VScode terminal where ** is the last 3 digits of your username found at the website
