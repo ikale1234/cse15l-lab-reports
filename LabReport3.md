@@ -4,6 +4,7 @@
 ### Command 1
 
 ```grep -i``` ignores case sensitivity when searching through lines of a file.
+
 ```grep "japan" HistoryJapan.txt```
 ```
 grep -i "japan" HistoryJapan.txt
@@ -12,7 +13,8 @@ grep -i "japan" HistoryJapan.txt
         Before you dismiss all this as the mere “myth” of Japan’s
         origins, remember that the Japanese continued to trace the imperial
         followed Japan’s best-known novelist Yukio Mishima in deploring this
-        Japan’s origins.........```
+        Japan’s origins.........
+```
  
 This example shows that since "Japan" is never spelled out lowercase, a normal search
 will not find any results. However using ```grep -i``` will solve this issue.
