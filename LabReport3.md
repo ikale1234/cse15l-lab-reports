@@ -5,7 +5,10 @@
 
 ```grep -i``` ignores case sensitivity when searching through lines of a file.
 
-```grep "japan" HistoryJapan.txt```
+```
+grep "japan" HistoryJapan.txt
+
+```
 ```
 grep -i "japan" HistoryJapan.txt
         (“Chronicles of Japan”), the islands of Japan were born of a marriage
