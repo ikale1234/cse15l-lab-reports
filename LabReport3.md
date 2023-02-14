@@ -1,6 +1,11 @@
 # Lab Report 3
 ## by Ishaan Kale
 
+
+### Reference
+For all the commands below, i went to https://en.wikibooks.org/wiki/Grep.
+
+
 ### Command 1
 
 ```grep -i``` ignores case sensitivity when searching through lines of a file.
@@ -63,5 +68,44 @@ grep -n "japan" HistoryJapan.txt
 
 ```
 ```grep -n``` will still return nothing if not a single line is found.
+This shows that these extensions are typically only useful if it can return something.
 
 ### Command 3
+```grep -o``` will only return the part of the line you wanted to search for.
+```
+grep -o "Japan" HistoryJapan.txt
+Japan
+Japan
+Japan
+Japan
+Japan
+Japan
+Japan
+Japan
+Japan....
+```
+As you can see, since we only searched for "Japan", all the instances of "Japan"
+were returned. This helps you see visually how many uses of a word there are.
+```
+grep -o "Lucca" IntroItaly.txt
+
+Lucca
+```
+Since "Lucca" is only used once in the text, so there is only one "Lucca" returned.
+This shows the minimal usage of "Lucca" in the passage.
+
+### Command 4
+```grep -c``` returns the count of lines that are returned from the search.
+```
+grep -c "Japan" HistoryJapan.txt 
+101
+```
+This shows that ```grep -c``` returned the amount of lines that contained "Japan". 
+This is helpful when determining frequency of a word or group of words in a text.
+
+```
+grep -c "japan" HistoryJapan.txt 
+0
+```
+This time the command returns 0, because "japan" is never found in the passage. This is one of
+the few commands that actually return something if there are no matches.
