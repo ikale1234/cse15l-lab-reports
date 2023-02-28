@@ -38,4 +38,7 @@ Then, to run the test file again, do ```\<up\>``` 3 times, as the command ```jav
 
 ### Step 9
 
-
+To commit and push the changes, first type ```git add L\<tab\>.java``` and ```\<enter\>```.
+Then do ```git commit -m "fixed bug"``` and ```\<enter\>```.
+Finally do ```git push``` and ```\<enter\>```. It will then prompt you to type your github info. After you
+finish that, you are done!
