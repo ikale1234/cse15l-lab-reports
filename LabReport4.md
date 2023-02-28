@@ -24,3 +24,11 @@ Specifically, I typed ```L\<tab\>T\<tab\>``` to get the argument faster.
 This will run the tests and show that it fails.
 
 ### Step 7
+
+Type ```nano L\<tab\>.java``` and ```\<enter\>``` to open the ```ListExamples.java``` file.
+The error is in the last while loop in the merge function, so press ```\<down\>``` a lot of times until you get there.
+When you find the ```index1 += 1;```, stop and press ```\<right\>``` until the cursor is just past the first "1".
+then press ```\<delete\>``` and then add ```2``` to make it ```index2 += 1;```. This will fix the bug. To save and exit,
+press ```\<ctrl-o\> \<enter\>``` and then ```\<ctrl-x\>```. 
+
+
