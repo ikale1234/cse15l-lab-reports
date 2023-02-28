@@ -31,4 +31,11 @@ When you find the ```index1 += 1;```, stop and press ```\<right\>``` until the c
 then press ```\<delete\>``` and then add ```2``` to make it ```index2 += 1;```. This will fix the bug. To save and exit,
 press ```\<ctrl-o\> \<enter\>``` and then ```\<ctrl-x\>```. 
 
+### Step 8
+
+To compile the file again, press ```\<up\>``` 3 times, as the command ```javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java``` the 3rd last command ran. 
+Then, to run the test file again, do ```\<up\>``` 3 times, as the command ```java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests``` is now the 3rd last one.
+
+### Step 9
+
 
