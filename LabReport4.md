@@ -13,6 +13,8 @@ I didn't have to type the password because of the earlier steps in the lab.
 Go to your github, and copy (```\<ctrl-c\>```) the url for the forked repo. Then go to the terminal, type in 
 ```git clone \<ctrl-v\>```, which will paste the your forked repo. Then press ``` \<enter\>```.
 
+![Image](sshot2.png)
+
 ### Step 6
 
 Type ```ls``` and ```\<enter\>``` to check if the lab7 directory now exists. Then do ```cd l``` then ```\<tab\> \<enter\>```.
@@ -23,6 +25,8 @@ To run it, copy command```java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.
 Specifically, I typed ```L\<tab\>T\<tab\>``` to get the argument faster.
 This will run the tests and show that it fails.
 
+![Image](sshot3.png)
+
 ### Step 7
 
 Type ```nano L\<tab\>.java``` and ```\<enter\>``` to open the ```ListExamples.java``` file.
@@ -31,10 +35,14 @@ When you find the ```index1 += 1;```, stop and press ```\<right\>``` until the c
 then press ```\<delete\>``` and then add ```2``` to make it ```index2 += 1;```. This will fix the bug. To save and exit,
 press ```\<ctrl-o\> \<enter\>``` and then ```\<ctrl-x\>```. 
 
+![Image](sshot4.png)
+
 ### Step 8
 
 To compile the file again, press ```\<up\>``` 3 times, as the command ```javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java``` the 3rd last command ran. 
 Then, to run the test file again, do ```\<up\>``` 3 times, as the command ```java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests``` is now the 3rd last one.
+
+![Image](sshot5.png)
 
 ### Step 9
 
@@ -42,3 +50,5 @@ To commit and push the changes, first type ```git add L\<tab\>.java``` and ```\<
 Then do ```git commit -m "fixed bug"``` and ```\<enter\>```.
 Finally do ```git push``` and ```\<enter\>```. It will then prompt you to type your github info. After you
 finish that, you are done!
+
+![Image](sshot6.png)
