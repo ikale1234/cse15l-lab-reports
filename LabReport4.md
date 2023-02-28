@@ -19,6 +19,8 @@ Type ```ls``` and ```\<enter\>``` to check if the lab7 directory now exists. The
 ```ls``` and ```\<enter\>``` again to check the name of the test file, which is ```ListExamplesTests.java```.
 Copy this command from the lab using ```\<ctrl-c\>```: ```javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java```.
 Then paste and enter in terminal (```\<ctrl-v\> \<enter\>```). This compiles the test.
-To run it, copy command```java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore```, add the file name as an argument (```ListExamplesTests.java```), and paste and enter into terminal.
-Specifically, I typed ```L\<tab\>T\<tab\>java``` to get the argument faster.
+To run it, copy command```java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore```, add the file name without .java as an argument (```ListExamplesTests```), and paste and enter into terminal.
+Specifically, I typed ```L\<tab\>T\<tab\>``` to get the argument faster.
 This will run the tests and show that it fails.
+
+### Step 7
