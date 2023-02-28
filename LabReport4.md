@@ -7,3 +7,8 @@ Type out ```ssh cs15lwi23avp@ieng6.ucsd.edu``` and ```\<enter\>``` in the termin
 I didn't have to type the password because of the earlier steps in the lab.
 
 ![Image](sshot1.png)
+
+### Step 5
+
+Go to your github, and copy (```\<ctrl-c\>```) the url for the forked repo. Then go to the terminal, type in 
+```git clone \<ctrl-v\>```, which will paste the your forked repo. Then press ``` \<enter\>```.
