@@ -22,5 +22,6 @@ Step 7 is best done outside of the bash script, as it requires manual editing.
 ![Image](s5.png)
 ![Image](s4.png)
 
-After fixing the file the 2nd bash script will run the tests again and process the github pushing commands.
-This condenses 6 lines of code into one.
+After fixing the file the 2nd bash script will run the tests again and process the github pushing commands (Steps 8-9).
+This condenses 6 lines of code into one command. If this was allowed in Lab Report 4, the use of a bash script like this
+can make the command writing process much swifter.
