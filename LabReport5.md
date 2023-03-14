@@ -12,8 +12,8 @@ ieng6, I can clone this repo, enter the respective folder, and run the first bas
 ![Image](s1.png)
 ![Image](s2.png)
 
-This first bash script (bash1.sh) does steps 5-6, which would normally take 4 commands in the terminal is now
-simplified into one short one. It ends with the failing tests, and the fixes to the file are now needed.
+This first bash script (bash1.sh) does steps 5-6, which would normally take 4 commands in the terminal. It is now
+simplified into one short command. The script ends with the failing tests, and the fixes to the file are now needed.
 
 ![Image](s3.png)
 
